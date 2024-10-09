@@ -1,7 +1,7 @@
 # Screenshots
-![Screenshot 2023-12-07 at 21-22-25 Fuad Electronics](https://github.com/Muhtashim-Fuad/Fuad-Electronics/assets/93215661/37e21025-e94d-444f-a784-b89598fa799e)
-![Screenshot 2023-12-07 at 21-23-33 Fuad Electronics](https://github.com/Muhtashim-Fuad/Fuad-Electronics/assets/93215661/fb289fad-fe92-48fa-8fbf-d75e196b7be1)
-![Screenshot 2023-12-07 at 21-30-18 Fuad Electronics](https://github.com/Muhtashim-Fuad/Fuad-Electronics/assets/93215661/89f1a1d4-7201-4266-bc5d-8d4c769014b9)
+![Screenshot 2023-12-07 at 21-30-18 Fuad Electronics](https://github.com/user-attachments/assets/ce104633-80cf-44a4-9581-e405fe4cc816)
+![Screenshot 2023-12-07 at 21-23-33 Fuad Electronics](https://github.com/user-attachments/assets/12e86846-e5e6-487c-817d-f9f629a46891)
+![Screenshot 2023-12-07 at 21-22-25 Fuad Electronics](https://github.com/user-attachments/assets/f2b37343-8283-4579-b017-5768c6585365)
 
 
 # Getting Started with Create React App
