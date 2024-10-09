@@ -1,0 +1,133 @@
+.main-panel
+{
+    padding-top: 5em;
+}
+
+.product-card-container-header
+{
+    margin: 35px 0px 0px 0px;
+}
+
+.product-panel-header-text
+{
+    font-size: 20px;
+    padding: 0.75em 3.5em 0.75em 3.5em;
+    letter-spacing: -0.05em;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+    background-color: rgb(223, 223, 223);
+}
+
+.product-card
+{
+    background-color: rgb(245, 245, 245);
+    border: 0.1em solid rgb(235, 235, 235);
+    border-radius: 0.75em;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 175px;
+    padding: 0.5em;
+    margin: 0.5em;
+
+    user-select: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.product-card:hover
+{
+    box-shadow: 0px 0px 7.5px #8a8a8a;
+    border: 0.1em solid rgb(235, 235, 235);
+    transition: all 0.25s ease-in-out;
+}
+
+.product-card:hover img
+{
+    transform: scale(1.05);
+    transition: all 0.25s ease-in-out;
+}
+
+.product-image
+{
+    border: 0.1em solid rgb(226, 226, 226);
+    border-radius: 0.45em;
+    display: flex;
+    overflow: hidden;
+}
+
+.product-image > img
+{
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.25s ease-in-out;
+}
+
+.product-info
+{
+    padding: 0.5em;
+}
+
+.product-title
+{
+    color: rgb(45, 45, 45);
+    font-size: 1.05em;
+    font-weight: bold;
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+}
+
+.product-text-info
+{
+    color: rgb(35, 35, 35);
+    font-size: 1em;
+    margin-top: 0.25em;
+}
+
+.product-text-info span
+{
+    margin-right: 5px;
+}
+
+.product-card-container
+{
+    display: grid;
+    grid-auto-flow: dense;
+    justify-content:flex-start;
+    font-size: 12.5px;
+    padding: 0.25em 4.5em 0em 4.5em;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(16em, auto));
+    
+}
+
+.discount-percentage
+{
+    color: rgb(31, 31, 214);
+}
+
+.new-product
+{
+    background-color: orangered;
+    border: 0.5px solid rgb(221, 69, 42);
+    color: azure;
+    font-size: 0.85em;
+    position: absolute;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+}
+
+.discounted-product
+{
+    background-color: rgb(93, 35, 187);
+    border: 0.5px solid rgb(72, 27, 145);
+    color: azure;
+    font-size: 0.85em;
+    position: absolute;
+    align-self: self-end;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+}

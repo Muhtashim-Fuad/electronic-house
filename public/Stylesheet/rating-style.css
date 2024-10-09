@@ -1,0 +1,30 @@
+.star
+{
+    margin: 1.5px;
+}
+
+.rating-fill
+{
+    color: #B4690E;
+}
+
+.rating-hollow
+{
+    color:dimgray;
+}
+
+.rating-container
+{
+    align-content: center;
+    font-size: 13.5px;
+    display: flex;
+    margin-bottom: 2.5px;
+    padding: 3.5px;
+}
+
+.rating-text
+{
+    color: #4D3105;
+    margin-left: 2.5px;
+    padding-top: 0.1em;
+}

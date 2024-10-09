@@ -1,0 +1,89 @@
+body
+{
+    color: rgb(70, 70, 70);
+    font-family: "Montserrat";
+    font-size: 12.5px;
+    letter-spacing: -0.25px;
+    margin: 0;
+}
+
+.button-generic
+{
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.15em solid rgb(202, 202, 202);
+    border-radius: 0.35em;
+    display: flex;
+    margin-top: 0em;
+    padding: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+
+    user-select: none;
+    transition: all 0.15s ease-in-out;
+}
+
+.button-primary
+{
+    color: #4b4b4b;
+}
+
+
+.button-primary:hover
+{
+    color: azure;
+    background-color: #444444;
+}
+
+.button-primary:active
+{
+    color: azure;
+    background-color: #2b2b2b;
+}
+
+.button-generic svg
+{
+    margin-right: 0.5rem;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+.button-secondary
+{
+    color: azure;
+    background-color: #2b2b2b;
+}
+
+.button-secondary:hover
+{
+    color: #4b4b4b;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.button-secondary:active
+{
+    color: #4b4b4b;
+    background-color: rgb(221, 221, 221);
+}
+
+.banner
+{
+    border: 1.5px solid Silver;
+    border-radius: 15px;
+    background-image: url("/assets/Logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px 50px 0px 50px;
+}
+
+.footer
+{
+    background-color: rgb(206, 125, 4);
+    border-top: 1px solid rgb(202, 202, 202);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 10px;
+}

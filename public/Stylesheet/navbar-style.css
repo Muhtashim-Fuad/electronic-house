@@ -1,0 +1,129 @@
+.navbar-container
+{
+    background-color: rgb(206, 125, 4);
+    box-shadow: 0px 0px 6.5px rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.navbar-link-container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+    padding-right: 35px;
+}
+
+.navbar-link
+{
+    align-items: center;
+    align-self: stretch;
+    border: 1.5px solid rgb(185, 185, 185, 0);
+    color: azure;
+    cursor: pointer;
+    display: flex;
+    
+    column-gap: 12.5px;
+    letter-spacing: 0.015px;
+    padding: 15px 12.5px 15px 12.5px;
+    margin: 0px 1.5px 0px 1.5px;
+    
+    user-select: none;
+    transition: all 0.15s ease-in-out;
+}
+
+.navbar-link:hover
+{
+    background-color: rgb(185, 185, 185, 0.35);
+}
+
+.navbar-link:active
+{
+    background-color: rgb(185, 185, 185, 0.5);
+}
+
+.navbar-search-container
+{
+    display: flex;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 100px;
+    max-width: 485px;
+    width: 475px;
+}
+
+.navbar-search-container > svg
+{
+    position: absolute;
+    align-self: center;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.navbar-search-container input
+{
+    background-color: #E6ECF2;
+    border: 2.5px ridge Silver;
+    border-radius: 5px;
+    color: rgb(56, 56, 56);
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 30px;
+    letter-spacing: -0.5px;
+    width: 100%;
+}
+
+.navbar-search-container input:focus
+{
+    outline: 0;
+}
+
+.navbar-logo
+{
+    color: azure;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    column-gap: 5px;
+    padding-left: 35px;
+    padding-right: 10px;
+    margin: 7.5px;
+    letter-spacing: -1.05px;
+    cursor: pointer;
+
+    user-select: none;
+    transition: all 0.15s ease-in-out;
+}
+
+.navbar-logo:hover
+{
+    filter: drop-shadow(0px 0px 3.5px azure);
+}
+
+.navbar-logo svg
+{
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+
+    animation: logoRotate 15s infinite linear;
+}
+
+@media screen and (max-width: 1080px)
+{
+    #title-electronics { display: none; }
+    .navbar-text {display: none;}
+}
+
+@keyframes logoRotate 
+{
+    100% {transform: rotate(360deg);}
+}
